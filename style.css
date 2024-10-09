@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: black;
+    background-image: url(./img/emoji.png) ;
+    background-repeat: repeat;
+}
+h1, p{
+    color: blueviolet;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    padding-top: 10rem;
+}
+.bigger-text{
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.left-text{
+    float: left;
+    font-style: italic;
+}
+.right-text{
+    float: right;
+    color: green;
+}
+.container{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-image: url(./img/window.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+a:hover{
+    color: purple;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 10px;
+}
