@@ -5,7 +5,7 @@
 body{
     text-align: center;
     background-color: black;
-    background-image: url(./img/emoji.png) ;
+    background-image: url("./img/emoji.png") ;
     background-repeat: repeat;
 }
 h1, p{
@@ -34,7 +34,7 @@ h1{
     width: 800px;
     height: 800px;
     margin: auto;
-    background-image: url(./img/window.png);
+    background-image: url("./img/window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
